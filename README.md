@@ -6,6 +6,31 @@ Welcome to the Disaster Prediction System! This system predicts the occurrence o
 
 The Disaster Prediction System utilizes AI technology, specifically machine learning models, to forecast three types of natural disasters: earthquake, flood, and hurricane. The system analyzes relevant weather parameters and historical data to make predictions about the intensity or likelihood of each disaster.
 
+## Tech Stack
+
+### Programming Language:
+- **Python**: 
+  - Primary language used for implementing the system's logic, data processing, and machine learning models.
+
+### Machine Learning Libraries:
+- **Scikit-learn**:
+  - Used for building and training machine learning models for predicting natural disasters based on historical data and weather parameters.
+- **TensorFlow**:
+  - Employed for more complex machine learning tasks, such as deep learning-based models for disaster prediction.
+
+### Data Processing:
+- **Pandas**:
+  - Used for data manipulation, preprocessing, and analysis, particularly for handling the historical datasets of earthquake, flood, and hurricane data.
+- **NumPy**:
+  - Essential for numerical computations and array manipulations, providing efficient data structures and operations for handling large datasets.
+
+### Dependencies:
+- **requirements.txt**:
+  - A file listing all the required Python packages and their versions, ensuring reproducibility and easy setup of the project environment using pip.
+
+### Other Libraries:
+- Various additional libraries may have been used for tasks such as data visualization, user interface development, and handling file I/O.
+
 ## Installation
 
 To run the Disaster Prediction System, follow these steps:
